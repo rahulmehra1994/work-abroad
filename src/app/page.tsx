@@ -2,7 +2,7 @@ import Image from "next/image";
 import Footer from "./components/footer";
 import Pricing from "./components/pricing";
 import Team from "./components/team";
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Home() {
   return (
