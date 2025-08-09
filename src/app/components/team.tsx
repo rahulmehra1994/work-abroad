@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Team() {
 
 return (
@@ -21,7 +23,7 @@ return (
             {/* <!-- person - start --> */}
             <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img
+                <Image
                   src="https://scontent.fdel3-3.fna.fbcdn.net/v/t39.30808-6/515107576_10230069011811471_8706991735581483608_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=lP-IaE8ggqMQ7kNvwH1zMVi&_nc_oc=Adkp_ttNU7RJJNALKMRq3Zx7rgxPNCmOYaro0FY8nShAY8djsn3vXdeo7iOgq0LWPF9lPCRfpfB3SpigKfI4bfoe&_nc_zt=23&_nc_ht=scontent.fdel3-3.fna&_nc_gid=RLUeny99Rvz_o5PyBHmgzw&oh=00_AfUWNw5WEUfWlZB8LF8KpD6-QHWo6seVLMxqNAiccy6LGQ&oe=689C9E8C"
                   loading="lazy"
                   alt=""
@@ -83,7 +85,7 @@ return (
             {/* <!-- person - start --> */}
             <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img
+                <Image
                   src="https://media.licdn.com/dms/image/v2/D5603AQGxiBRWokpolw/profile-displayphoto-shrink_800_800/B56ZPzUceCHIAc-/0/1734954043797?e=1757548800&v=beta&t=ZmQEMN2IdG34fM6Y-6i-DYTsly2ESVcicGhNJbZy1a8"
                   loading="lazy"
                   alt="Photo by christian ferrer"
@@ -145,7 +147,7 @@ return (
             {/* <!-- person - start --> */}
             <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256"
                   loading="lazy"
                   alt="Photo by Ayo Ogunseinde"
@@ -207,7 +209,7 @@ return (
             {/* <!-- person - start --> */}
             <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img
+                <Image
                   src="https://media.licdn.com/dms/image/v2/D4D03AQEZsrGv0G1q5Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702301340491?e=1757548800&v=beta&t=9Z7mpdvDEVK-1yufZDp9fJyrvvUhOUYXEDGXK8XBVZ8"
                   loading="lazy"
                   alt="himanshu mehra"

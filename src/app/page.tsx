@@ -2,6 +2,7 @@ import Image from "next/image";
 import Footer from "./components/footer";
 import Pricing from "./components/pricing";
 import Team from "./components/team";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
             {/* <!-- logo - start --> */}
-            <a
+            <Link
               href="/"
               className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
               aria-label="logo"
@@ -27,42 +28,42 @@ export default function Home() {
                 <path d="M96 0V47L48 94H0V47L48 0H96Z" />
               </svg>
               Work Abroad
-            </a>
+            </Link>
             {/* <!-- logo - end --> */}
 
             {/* <!-- nav - start --> */}
             <nav className="hidden gap-12 lg:flex">
-              <a href="#" className="text-lg font-semibold text-indigo-500">
+              <Link href="#" className="text-lg font-semibold text-indigo-500">
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
               >
                 About
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
               >
                 Services
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
               >
                 Pricing
-              </a>
+              </Link>
             </nav>
             {/* <!-- nav - end --> */}
 
             {/* <!-- buttons - start --> */}
-            <a
+            <Link
               href="#"
               className="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block"
             >
               Contact Us
-            </a>
+            </Link>
 
             <button
               type="button"
@@ -105,26 +106,26 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-                <a
+                <Link
                   href="#"
                   className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
                 >
                   Explore now
-                </a>
+                </Link>
 
-                {/* <a
+                {/* <Link
                   href="#"
                   className="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base"
                 >
                   Take tour
-                </a> */}
+                </Link> */}
               </div>
             </div>
             {/* <!-- content - end --> */}
 
             {/* <!-- image - start --> */}
             <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
                 loading="lazy"
                 alt="Photo by Fakurian Design"
@@ -180,12 +181,12 @@ export default function Home() {
                   2-Year Romanian Work Visa for delivery, construction, or labor
                   jobs.
                 </p>
-                {/* <a
+                {/* <Link
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a> */}
+                </Link> */}
               </div>
             </div>
 
@@ -215,12 +216,12 @@ export default function Home() {
                   Guaranteed Job Placement with a minimum 1-year employment
                   contract (job change allowed after one year).
                 </p>
-                {/* <a
+                {/* <Link
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a> */}
+                </Link> */}
               </div>
             </div>
 
@@ -250,12 +251,12 @@ export default function Home() {
                   Full Processing Support including work permit, visa, and
                   solicitor fees.
                 </p>
-                {/* <a
+                {/* <Link
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a> */}
+                </Link> */}
               </div>
             </div>
 
@@ -285,12 +286,12 @@ export default function Home() {
                   On-Ground Assistance with airport pickup and one month of free
                   accommodation.
                 </p>
-                {/* <a
+                {/* <Link
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a> */}
+                </Link> */}
               </div>
             </div>
 
@@ -320,12 +321,12 @@ export default function Home() {
                   Visa Extension Services to help you continue your stay in
                   Romania.
                 </p>
-                {/* <a
+                {/* <Link
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a> */}
+                </Link> */}
               </div>
             </div>
 
@@ -355,12 +356,12 @@ export default function Home() {
                   Clear payment schedules with no hidden costs and honest
                   guidance and timely updates throughout the process.
                 </p>
-                {/* <a
+                {/* <Link
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a> */}
+                </Link> */}
               </div>
             </div>
             {/* <!-- feature - end --> */}
@@ -517,7 +518,7 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
                 <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
                     loading="lazy"
                     alt="Photo by Radu Florin"
@@ -546,7 +547,7 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
                 <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
                     loading="lazy"
                     alt="Photo by christian ferrer"
@@ -564,6 +565,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
             {/* <!-- quote - end --> */}
 
             {/* <!-- quote - start --> */}
@@ -574,7 +576,7 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
                 <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256"
                     loading="lazy"
                     alt="Photo by Ayo Ogunseinde"
@@ -608,8 +610,6 @@ export default function Home() {
             width="100%"
             height="100%"
             frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
             title="map"
             scrolling="no"
             src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
