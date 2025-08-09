@@ -2,7 +2,7 @@ export default function Pricing() {
   return (
 
 
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="bg-white py-6 sm:py-8 lg:py-12" id="Pricing">
       <div className="mx-auto max-w-screen-lg px-4 md:px-8">
         <div className="mb-10 md:mb-16">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
@@ -10,7 +10,7 @@ export default function Pricing() {
           </h2>
 
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            Total Immigration Package Fee: €8,500
+            Total Immigration Package Fee: 11,000 Euros
           </p>
         </div>
 
@@ -37,9 +37,9 @@ export default function Pricing() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
 
@@ -54,9 +54,9 @@ export default function Pricing() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
 
@@ -71,9 +71,9 @@ export default function Pricing() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
 
@@ -93,7 +93,7 @@ export default function Pricing() {
             <div className="mb-4 flex flex-col items-start justify-between gap-4 lg:flex-row">
               <div>
                 <h3 className="text-2xl font-semibold text-white sm:text-3xl">
-                  Total Immigration Package Fee: €8,500
+                  Total Immigration Fee: €11,000
                 </h3>
                 <p className="text-indigo-100">Payment Schedule:</p>
               </div>
@@ -104,8 +104,8 @@ export default function Pricing() {
             </div>
 
             <div className="mb-4 space-x-2">
-              <span className="text-4xl font-bold text-white">$12000</span>
-              <span className="text-2xl text-indigo-100 line-through">$10000</span>
+              <span className="text-4xl font-bold text-white">€11000</span>
+              <span className="text-2xl text-indigo-100 line-through">€15000</span>
             </div>
 
             <ul className="mb-6 space-y-2 text-indigo-100">
@@ -117,9 +117,9 @@ export default function Pricing() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
 
@@ -134,13 +134,13 @@ export default function Pricing() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
 
-                <span>Second Installment: €3,600 – Payable after work permit issuance (Refundable if visa is rejected).</span>
+                <span>Second Installment: €4,600 – Payable after work permit issuance (Refundable if visa is rejected).</span>
               </li>
 
               <li className="flex items-center gap-1.5">
@@ -151,13 +151,13 @@ export default function Pricing() {
                   fill="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
 
-                <span>Final Installment: €3,600 – Payable after visa approval.</span>
+                <span>Final Installment: €5,100 – Payable after visa approval.</span>
               </li>
             </ul>
 

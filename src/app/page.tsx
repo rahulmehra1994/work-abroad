@@ -27,7 +27,7 @@ export default function Home() {
               >
                 <path d="M96 0V47L48 94H0V47L48 0H96Z" />
               </svg>
-              Work Abroad
+              Easy Jobs Romania
             </Link>
             {/* <!-- logo - end --> */}
 
@@ -37,19 +37,19 @@ export default function Home() {
                 Home
               </Link>
               <Link
-                href="#"
+                href="#about"
                 className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
               >
                 About
               </Link>
               <Link
-                href="#"
+                href="#competitive-edge"
                 className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
               >
                 Services
               </Link>
               <Link
-                href="#"
+                href="#Pricing"
                 className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
               >
                 Pricing
@@ -59,7 +59,7 @@ export default function Home() {
 
             {/* <!-- buttons - start --> */}
             <Link
-              href="#"
+              href="#contact"
               className="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block"
             >
               Contact Us
@@ -94,7 +94,7 @@ export default function Home() {
               </p>
 
               <h1 className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
-                Work Abroad
+                Easy Jobs Romania
               </h1>
 
               <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
@@ -130,6 +130,8 @@ export default function Home() {
                 loading="lazy"
                 alt="Photo by Fakurian Design"
                 className="h-full w-full object-cover object-center"
+                width={400}
+                height={200}
               />
             </div>
             {/* <!-- image - end --> */}
@@ -138,7 +140,7 @@ export default function Home() {
       </div>
       {/* <!-- hero - end --> */}
       {/* <!-- features - start --> */}
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+      <div className="bg-white py-6 sm:py-8 lg:py-12" id="competitive-edge">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           {/* <!-- text - start --> */}
           <div className="mb-10 md:mb-16">
@@ -500,7 +502,6 @@ export default function Home() {
         </div>
       </div> */}
 
-
       <Team />
       {/* <!-- testemonials - start --> */}
       <div className="bg-white py-6 sm:py-8 lg:py-12">
@@ -523,15 +524,17 @@ export default function Home() {
                     loading="lazy"
                     alt="Photo by Radu Florin"
                     className="h-full w-full object-cover object-center"
+                    width={1000}
+                    height={600}
                   />
                 </div>
 
                 <div>
                   <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">
-                    John McCulling
+                    Umer Khan
                   </div>
                   <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">
-                    Deliveroo employee
+                    Delivery Agent
                   </p>
                 </div>
               </div>
@@ -552,12 +555,14 @@ export default function Home() {
                     loading="lazy"
                     alt="Photo by christian ferrer"
                     className="h-full w-full object-cover object-center"
+                    width={1000}
+                    height={600}
                   />
                 </div>
 
                 <div>
                   <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">
-                    Kate Berg
+                    Karan Singh
                   </div>
                   <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">
                     Delivery Agent
@@ -581,15 +586,17 @@ export default function Home() {
                     loading="lazy"
                     alt="Photo by Ayo Ogunseinde"
                     className="h-full w-full object-cover object-center"
+                    width={1000}
+                    height={600}
                   />
                 </div>
 
                 <div>
                   <div className="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">
-                    Greg Jackson
+                    Priya Sharma
                   </div>
                   <p className="text-center text-sm text-gray-500 sm:text-left md:text-sm">
-                    Delivery Agent
+                    Factory line worker
                   </p>
                 </div>
               </div>
@@ -604,7 +611,7 @@ export default function Home() {
 
       {/* <!-- Contact - start --> */}
 
-      <section className="text-gray-600 body-font relative">
+      <section className="text-gray-600 body-font relative" id="contact">
         <div className="absolute inset-0 bg-gray-300">
           <iframe
             width="100%"
@@ -612,7 +619,7 @@ export default function Home() {
             frameBorder="0"
             title="map"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bucahrest+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
           ></iframe>
         </div>
@@ -639,18 +646,43 @@ export default function Home() {
                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
+
             <div className="relative mb-4">
               <label
                 htmlFor="message"
                 className="leading-7 text-sm text-gray-600"
               >
-                Message
+                Message/Query
               </label>
               <textarea
                 id="message"
                 name="message"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
+            </div>
+
+            <div className="relative mb-4">
+              <label htmlFor="" className="leading-7 text-sm text-gray-600">
+                Preffered time to callback
+              </label>
+              <input
+                type="text"
+                id="preferred-time"
+                name="preferred-time"
+                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+
+            <div className="relative mb-4">
+              <label htmlFor="" className="leading-7 text-sm text-gray-600">
+                Phone number
+              </label>
+              <input
+                type="text"
+                id="phon-number"
+                name="phone-number"
+                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
             </div>
             <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
               Send

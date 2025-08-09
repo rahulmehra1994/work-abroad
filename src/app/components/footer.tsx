@@ -24,7 +24,7 @@ export default function Footer() {
                   >
                     <path d="M96 0V47L48 94H0V47L48 0H96Z" />
                   </svg>
-                  Work Abroad
+                  Easy Jobs Romania
                 </Link>
               </div>
               {/* <!-- logo - end --> */}
@@ -251,7 +251,7 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-gray-800 py-8 text-center text-sm text-gray-400">
-            © 2025 - Present Work Abroad. All rights reserved.
+            © 2025 - Present Easy Jobs Romania. All rights reserved.
           </div>
         </footer>
       </div>
