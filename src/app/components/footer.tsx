@@ -154,7 +154,7 @@ export default function Footer() {
               <nav className="flex flex-col gap-4">
                 <div>
                   <Link
-                    href="#"
+                    href="#AboutUs"
                     className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                   >
                     About

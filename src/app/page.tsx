@@ -4,12 +4,15 @@ import Pricing from "./components/pricing";
 import Team from "./components/team";
 import Link from "next/link";
 import Hero from "./components/hero";
+import AboutUs from "./components/about-us";
 import { ExternalLink, HandFist, HeartPlus, SearchCheck, TicketCheck } from "lucide-react";
 
 export default function Home() {
   return (
     <div>
       <Hero />
+
+      <AboutUs/>
 
       {/* <!-- features - start --> */}
       <div className="bg-white py-6 sm:py-8 lg:py-12" id="CompetitiveEdge">
