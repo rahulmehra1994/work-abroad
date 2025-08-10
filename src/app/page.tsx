@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Footer from "./components/footer";
-import Pricing from "./components/pricing";
-import Team from "./components/team";
+import Footer from "../components/footer";
+import Pricing from "../components/pricing";
+import Team from "../components/team";
 import Link from "next/link";
-import Hero from "./components/hero";
-import AboutUs from "./components/about-us";
+import Hero from "../components/hero";
+import AboutUs from "../components/about-us";
 import { ExternalLink, HandFist, HeartPlus, SearchCheck, TicketCheck } from "lucide-react";
 
 export default function Home() {
