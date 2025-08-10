@@ -324,15 +324,15 @@ export default function Home() {
             {/* <!-- quote - start --> */}
             <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
               <div className="text-center text-gray-600">
-                “They really care for their customers. I got full Support”
+                “EasyJobsRomania turned my overseas job dream into a reality—I couldn’t be happier!”
               </div>
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
                 <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
                   <Image
-                    src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                    src="/images/umer_khan.jpeg"
                     loading="lazy"
-                    alt="Photo by Radu Florin"
+                    alt="umer khan"
                     className="h-full w-full object-cover object-center"
                     width={1000}
                     height={600}
@@ -354,16 +354,15 @@ export default function Home() {
             {/* <!-- quote - start --> */}
             <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
               <div className="text-center text-gray-600">
-                “Highly recommended! Will recomment others to try their
-                service.”
+                “Easyjobsromania made the entire hiring process smooth, transparent, and stress-free.”
               </div>
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
                 <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
                   <Image
-                    src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
+                    src="/images/karan_singh.webp"
                     loading="lazy"
-                    alt="Photo by christian ferrer"
+                    alt="karan singh"
                     className="h-full w-full object-cover object-center"
                     width={1000}
                     height={600}
@@ -386,15 +385,15 @@ export default function Home() {
             {/* <!-- quote - start --> */}
             <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
               <div className="text-center text-gray-600">
-                “Best services. Totally transparent.”
+                “Thanks to easyjobsromania, I landed my dream job in Romania faster than I imagined!”
               </div>
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
                 <div className="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
                   <Image
-                    src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256"
+                    src="/images/priya_sharma.jpg"
                     loading="lazy"
-                    alt="Photo by Ayo Ogunseinde"
+                    alt="priya sharma"
                     className="h-full w-full object-cover object-center"
                     width={1000}
                     height={600}
