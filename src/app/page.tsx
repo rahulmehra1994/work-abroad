@@ -6,14 +6,20 @@ import Link from "next/link";
 import Hero from "../components/hero";
 import AboutUs from "../components/about-us";
 import ContactForm from "../components/contact-form";
-import { ExternalLink, HandFist, HeartPlus, SearchCheck, TicketCheck } from "lucide-react";
+import {
+  ExternalLink,
+  HandFist,
+  HeartPlus,
+  SearchCheck,
+  TicketCheck,
+} from "lucide-react";
 
 export default function Home() {
   return (
     <div>
       <Hero />
 
-      <AboutUs/>
+      <AboutUs />
 
       {/* <!-- features - start --> */}
       <div className="bg-white py-6 sm:py-8 lg:py-12" id="CompetitiveEdge">
@@ -258,60 +264,7 @@ export default function Home() {
         </div>
       </div>
       {/* <!-- logo cloud - end --> */}
-      {/* <!-- stats - start --> */}
-
-      {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
-        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-      
-          <div className="mb-10 md:mb-16">
-            <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-              Our Team by the numbers
-            </h2>
-
-            <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
     
-            </p>
-          </div>
-    
-
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-0 md:divide-x">
-         
-            <div className="flex flex-col items-center md:p-4">
-              <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
-                10
-              </div>
-              <div className="text-sm font-semibold sm:text-base">People</div>
-            </div>
-
-            <div className="flex flex-col items-center md:p-4">
-              <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
-                500+
-              </div>
-              <div className="text-sm font-semibold sm:text-base">People</div>
-            </div>
-
-      
-            <div className="flex flex-col items-center md:p-4">
-              <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
-                1000+
-              </div>
-              <div className="text-sm font-semibold sm:text-base">
-                Customers
-              </div>
-            </div>
-    
-            <div className="flex flex-col items-center md:p-4">
-              <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
-                A couple
-              </div>
-              <div className="text-sm font-semibold sm:text-base">
-                Coffee breaks
-              </div>
-            </div>
-      
-          </div>
-        </div>
-      </div> */}
 
       <Team />
       {/* <!-- testemonials - start --> */}
@@ -325,7 +278,8 @@ export default function Home() {
             {/* <!-- quote - start --> */}
             <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
               <div className="text-center text-gray-600">
-                “EasyJobsRomania turned my overseas job dream into a reality—I couldn’t be happier!”
+                “EasyJobsRomania turned my overseas job dream into a reality—I
+                couldn’t be happier!”
               </div>
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
@@ -355,7 +309,8 @@ export default function Home() {
             {/* <!-- quote - start --> */}
             <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
               <div className="text-center text-gray-600">
-                “Easyjobsromania made the entire hiring process smooth, transparent, and stress-free.”
+                “Easyjobsromania made the entire hiring process smooth,
+                transparent, and stress-free.”
               </div>
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
@@ -386,7 +341,8 @@ export default function Home() {
             {/* <!-- quote - start --> */}
             <div className="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
               <div className="text-center text-gray-600">
-                “Thanks to easyjobsromania, I landed my dream job in Romania faster than I imagined!”
+                “Thanks to easyjobsromania, I landed my dream job in Romania
+                faster than I imagined!”
               </div>
 
               <div className="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
@@ -420,7 +376,7 @@ export default function Home() {
       <Pricing />
 
       {/* <!-- Contact - start --> */}
-      <section className="text-gray-600 body-font relative" id="Contact">
+      <section className="mt-4 text-gray-600 body-font relative" id="Contact">
         <div className="absolute inset-0 bg-gray-300">
           <iframe
             width="100%"
@@ -432,10 +388,8 @@ export default function Home() {
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
           ></iframe>
         </div>
-        <div className="container px-5 py-24 mx-auto flex">
-          <div className="lg:w-1/3 md:w-1/2 w-full mt-10 md:mt-0 relative z-10">
-            <ContactForm />
-          </div>
+        <div className="container px-4 py-16 mx-auto flex flex-row-reverse">
+          <ContactForm />
         </div>
       </section>
       {/* <!-- Contact - end --> */}
