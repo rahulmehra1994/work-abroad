@@ -62,7 +62,7 @@ export default function ContactForm() {
             Contact Us
           </h2>
           <p className="text-gray-500 text-center text-base">
-            We'd love to hear from you! Fill out the form below.
+            We would love to hear from you! Fill out the form below.
           </p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-6">
